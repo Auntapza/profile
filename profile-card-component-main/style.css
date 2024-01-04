@@ -9,16 +9,20 @@
 body{
     background-color: hsl(185, 75%, 39%);
     min-height: 100vh;
+    overflow: hidden;
+}
+
+body > img {
+    position: absolute;
+    width: 65%;
 }
 
 .top {
-    position: absolute;
-    top: -100%;
-    left: -20%;
+    top: -40%;
+    left: -23%;
 }
 
 .bottom {
-    position: absolute;
-    bottom: -90%;
-    right: -20%;
+    bottom: -50%;
+    right: -23%;
 }
